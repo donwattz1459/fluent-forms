@@ -1,0 +1,27 @@
+/*SPAN CHECKBOXES ACROSS THE SCREEN*/
+/*REPLACE location_check WITH YOUR OWN CSS CLASS FROM STEP 1*/
+.location_check .ff-el-input--content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*REPLACE location_check WITH YOUR OWN CSS CLASS FROM STEP 1*/
+.location_check .ff-el-form-check{
+	flex-basis: 25%;
+}
+
+/*FOR TABLETS*/
+/*REPLACE location_check WITH YOUR OWN CSS CLASS FROM STEP 1*/
+@media (max-width: 768px){
+	.location_check .ff-el-form-check{
+	flex-basis: 33%;
+}
+}
+
+/*FOR MOBILE*/
+/*REPLACE location_check WITH YOUR OWN CSS CLASS FROM STEP 1*/
+@media (max-width: 360px){
+	.location_check .ff-el-form-check{
+	flex-basis: 100%;
+}
+}
